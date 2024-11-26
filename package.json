@@ -1,18 +1,14 @@
 {
-  "name": "openapi-codegen",
+  "name": "react-query-codegen",
   "version": "0.0.1",
-  "description": "OpenAPI code generator framework",
-  "repository": "https://github.com/fabien0102/openapi-codegen",
-  "author": "Fabien Bernard",
+  "description": "OpenAPI code generator framework with React Query",
+  "repository": "https://github.com/nt7nguye/openapi-codegen",
+  "author": "Tan Nguyen",
   "license": "MIT",
   "private": true,
   "engines": {
     "node": ">=16"
-  },
-  "workspaces": [
-    "cli",
-    "plugins/typescript"
-  ],
+  }, 
   "scripts": {
     "test": "jest",
     "build:all": "npx lerna run build",
